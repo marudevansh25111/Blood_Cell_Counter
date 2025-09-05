@@ -1,0 +1,53 @@
+{
+  "test_execution": {
+    "start_time": "2025-09-03T20:44:42.621432",
+    "end_time": "2025-09-03T20:44:43.177065",
+    "total_time": 0.5555720329284668,
+    "python_version": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+    "platform": "darwin"
+  },
+  "test_summary": {
+    "total_tests": 9,
+    "passed_tests": 3,
+    "failed_tests": 6,
+    "success_rate": 33.33333333333333
+  },
+  "detailed_results": {
+    "Module Import Validation": {
+      "passed": true,
+      "time": 2.5987625122070312e-05
+    },
+    "Synthetic Data Generation": {
+      "passed": true,
+      "time": 0.21046710014343262
+    },
+    "Image Processor Component": {
+      "passed": true,
+      "time": 0.1156148910522461
+    },
+    "Cell Detector Component": {
+      "passed": false,
+      "time": 0.03933286666870117
+    },
+    "Cell Classifier Component": {
+      "passed": false,
+      "time": 0.0337519645690918
+    },
+    "Complete Pipeline Integration": {
+      "passed": false,
+      "time": 0.019483089447021484
+    },
+    "Performance Benchmarking": {
+      "passed": false,
+      "time": 0.009459972381591797
+    },
+    "Batch Processing": {
+      "passed": false,
+      "time": 0.11909914016723633
+    },
+    "Error Handling": {
+      "passed": false,
+      "time": 0.007779836654663086
+    }
+  }
+}

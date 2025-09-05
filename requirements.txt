@@ -1,0 +1,19 @@
+# Optimized for Mac M3 Pro with Python 3.12.7
+
+# Core computer vision and image processing
+opencv-python==4.9.0.80
+pillow==10.4.0
+numpy==1.26.4
+matplotlib==3.8.4
+scikit-image==0.22.0
+
+# Machine learning and data analysis
+scikit-learn==1.4.2
+pandas==2.2.2
+scipy==1.13.0
+
+# Web interface
+streamlit==1.32.0
+
+# Additional utilities for better compatibility
+opencv-contrib-python==4.9.0.80

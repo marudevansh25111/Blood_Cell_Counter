@@ -1,0 +1,32 @@
+{
+  "batch_processing_summary": {
+    "total_images_attempted": 16,
+    "successful_images": 15,
+    "failed_images": 1,
+    "failed_image_list": [
+      "data/input/empty_test.png"
+    ],
+    "success_rate": 93.75
+  },
+  "aggregate_statistics": {
+    "total_cells_detected": 249,
+    "average_cells_per_image": 16.6,
+    "total_rbcs": 0,
+    "total_wbcs": 218,
+    "total_platelets": 8,
+    "overall_cell_distribution": {
+      "RBC": 0.0,
+      "WBC": 87.55020080321285,
+      "Platelet": 3.2128514056224895
+    }
+  },
+  "performance_metrics": {
+    "total_processing_time": 2.5800540447235107,
+    "average_processing_time_per_image": 0.1070559819539388,
+    "processing_rate": 348.82990216449036,
+    "average_confidence": 0.6562424097230599,
+    "min_processing_time": 0.0,
+    "max_processing_time": 0.20645809173583984
+  },
+  "processing_timestamp": "2025-09-05T10:26:37.715856"
+}

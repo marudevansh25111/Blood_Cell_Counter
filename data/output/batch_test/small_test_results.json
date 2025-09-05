@@ -1,0 +1,97 @@
+{
+  "image_path": "data/input/small_test.png",
+  "processing_timestamp": "2025-09-05T10:26:36.231988",
+  "original_image_shape": [
+    50,
+    50,
+    3
+  ],
+  "processing_times": {
+    "preprocessing": 0.000843048095703125,
+    "detection": 0.03384113311767578,
+    "classification": 0.00010991096496582031,
+    "total": 0.03483295440673828
+  },
+  "detection_stats": {
+    "total_cells_detected": 1,
+    "detection_methods_used": [
+      "contour"
+    ],
+    "detections_by_method": {
+      "contour": 1
+    },
+    "average_confidence": 0.8853981633974483,
+    "confidence_range": [
+      0.8853981633974483,
+      0.8853981633974483
+    ],
+    "average_cell_area": 2500.0,
+    "area_range": [
+      2500,
+      2500
+    ],
+    "detection_density": 0.0004
+  },
+  "report": {
+    "total_cells": 1,
+    "counts": {
+      "RBC": 0,
+      "WBC": 0,
+      "Platelet": 0,
+      "Unknown": 1
+    },
+    "percentages": {
+      "RBC": 0.0,
+      "WBC": 0.0,
+      "Platelet": 0.0,
+      "Unknown": 100.0
+    },
+    "average_confidence": 0.1,
+    "confidence_by_type": {
+      "RBC": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "WBC": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "Platelet": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "Unknown": {
+        "mean": 0.1,
+        "std": 0.0,
+        "min": 0.1,
+        "max": 0.1
+      }
+    },
+    "classifications": [
+      {
+        "id": 0,
+        "type": "Unknown",
+        "confidence": 0.1,
+        "bbox": [
+          0,
+          0,
+          50,
+          50
+        ],
+        "center": [
+          25,
+          25
+        ],
+        "area": 2500,
+        "detection_method": "contour"
+      }
+    ]
+  },
+  "method_used": "Rule-based"
+}

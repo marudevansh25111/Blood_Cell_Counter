@@ -1,0 +1,33 @@
+{
+  "timestamp": "2025-09-05T10:26:35.086907",
+  "performance_data": [
+    {
+      "size": "400\u00d7300",
+      "pixels": 120000,
+      "processing_time": 0.049008846282958984,
+      "cells_detected": 12,
+      "cells_per_second": 244.853754171572,
+      "pixels_per_second": 2448537.54171572
+    },
+    {
+      "size": "600\u00d7450",
+      "pixels": 270000,
+      "processing_time": 0.11427187919616699,
+      "cells_detected": 21,
+      "cells_per_second": 183.77224692305927,
+      "pixels_per_second": 2362786.031867905
+    },
+    {
+      "size": "800\u00d7600",
+      "pixels": 480000,
+      "processing_time": 0.15426301956176758,
+      "cells_detected": 16,
+      "cells_per_second": 103.71896028907648,
+      "pixels_per_second": 3111568.8086722945
+    }
+  ],
+  "system_info": {
+    "platform": "darwin",
+    "python_version": "3.12.7"
+  }
+}

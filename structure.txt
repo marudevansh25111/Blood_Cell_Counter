@@ -1,0 +1,17 @@
+blood_cell_counter/
+├── venv/                          # Virtual environment
+├── src/                           # Source code
+│   ├── __init__.py               # Package init
+│   ├── image_processor.py        # Image preprocessing
+│   ├── cell_detector.py          # Cell detection
+│   ├── cell_classifier.py        # Classification
+│   └── blood_counter.py          # Main orchestration
+├── data/
+│   ├── input/                     # Input images
+│   └── output/                    # Results
+├── models/                        # Trained models
+├── tests/                         # Test files
+├── app.py                         # Web interface
+├── test_implementation.py         # Test suite
+├── requirements.txt               # Dependencies
+└── README.md                      # Documentation

@@ -1,0 +1,437 @@
+{
+  "image_path": "data/input/perf_test_600x450.png",
+  "processing_timestamp": "2025-09-05T10:26:36.020862",
+  "original_image_shape": [
+    450,
+    600,
+    3
+  ],
+  "processing_times": {
+    "preprocessing": 0.011360883712768555,
+    "detection": 0.09050393104553223,
+    "classification": 0.004506826400756836,
+    "total": 0.10646295547485352
+  },
+  "detection_stats": {
+    "total_cells_detected": 21,
+    "detection_methods_used": [
+      "watershed"
+    ],
+    "detections_by_method": {
+      "watershed": 21
+    },
+    "average_confidence": 0.6999999999999998,
+    "confidence_range": [
+      0.7,
+      0.7
+    ],
+    "average_cell_area": 15769.190476190477,
+    "area_range": [
+      1960,
+      39440
+    ],
+    "detection_density": 7.777777777777778e-05
+  },
+  "report": {
+    "total_cells": 21,
+    "counts": {
+      "RBC": 0,
+      "WBC": 20,
+      "Platelet": 0,
+      "Unknown": 1
+    },
+    "percentages": {
+      "RBC": 0.0,
+      "WBC": 95.23809523809523,
+      "Platelet": 0.0,
+      "Unknown": 4.761904761904762
+    },
+    "average_confidence": 0.7714285714285714,
+    "confidence_by_type": {
+      "RBC": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "WBC": {
+        "mean": 0.8049999999999999,
+        "std": 0.06873863542433761,
+        "min": 0.7,
+        "max": 0.85
+      },
+      "Platelet": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "Unknown": {
+        "mean": 0.1,
+        "std": 0.0,
+        "min": 0.1,
+        "max": 0.1
+      }
+    },
+    "classifications": [
+      {
+        "id": 0,
+        "type": "WBC",
+        "confidence": 0.85,
+        "bbox": [
+          0,
+          0,
+          199,
+          194
+        ],
+        "center": [
+          82,
+          75
+        ],
+        "area": 38606,
+        "detection_method": "watershed"
+      },
+      {
+        "id": 1,
+        "type": "WBC",
+        "confidence": 0.85,
+        "bbox": [
+          199,
+          0,
+          366,
+          70
+        ],
+        "center": [
+          282,
+          33
+        ],
+        "area": 11690,
+        "detection_method": "watershed"
+      },
+      {
+        "id": 2,
+        "type": "WBC",
+        "confidence": 0.7,
+        "bbox": [
+          366,
+          0,
+          412,
+          81
+        ],
+        "center": [
+          389,
+          32
+        ],
+        "area": 3726,
+        "detection_method": "watershed"
+      },
+      {
+        "id": 3,
+        "type": "WBC",
+        "confidence": 0.85,
+        "bbox": [
+          412,
+          0,
+          494,
+          111
+        ],
+        "center": [
+          448,
+          46
+        ],
+        "area": 9102,
+        "detection_method": "watershed"
+      },
+      {
+        "id": 4,
+        "type": "WBC",
+        "confidence": 0.7,
+        "bbox": [
+          494,
+          0,
+          600,
+          51
+        ],
+        "center": [
+          549,
+          21
+        ],
+        "area": 5406,
+        "detection_method": "watershed"
+      },
+      {
+        "id": 5,
+        "type": "WBC",
+        "confidence": 0.85,
+        "bbox": [
+          211,
+          69,
+          390,
+          228
+        ],
+        "center": [
+          306,
+          137
+        ],
+        "area": 28461,
+        "detection_method": "watershed"
+      },
+      {
+        "id": 6,
+        "type": "WBC",
+        "confidence": 0.7,
+        "bbox": [
+          378,
+          102,
+          446,
+          184
+        ],
+        "center": [
+          405,
+          134
+        ],
+        "area": 5576,
+        "detection_method": "watershed"
+      },
+      {
+        "id": 7,
+        "type": "WBC",
+        "confidence": 0.85,
+        "bbox": [
+          94,
+          80,
+          278,
+          285
+        ],
+        "center": [
+          190,
+          187
+        ],
+        "area": 37720,
+        "detection_method": "watershed"
+      },
+      {
+        "id": 8,
+        "type": "WBC",
+        "confidence": 0.85,
+        "bbox": [
+          455,
+          47,
+          600,
+          319
+        ],
+        "center": [
+          533,
+          186
+        ],
+        "area": 39440,
+        "detection_method": "watershed"
+      },
+      {
+        "id": 9,
+        "type": "WBC",
+        "confidence": 0.85,
+        "bbox": [
+          365,
+          137,
+          461,
+          257
+        ],
+        "center": [
+          419,
+          202
+        ],
+        "area": 11520,
+        "detection_method": "watershed"
+      },
+      {
+        "id": 10,
+        "type": "Unknown",
+        "confidence": 0.1,
+        "bbox": [
+          93,
+          185,
+          128,
+          241
+        ],
+        "center": [
+          105,
+          218
+        ],
+        "area": 1960,
+        "detection_method": "watershed"
+      },
+      {
+        "id": 11,
+        "type": "WBC",
+        "confidence": 0.85,
+        "bbox": [
+          56,
+          183,
+          157,
+          362
+        ],
+        "center": [
+          104,
+          277
+        ],
+        "area": 18079,
+        "detection_method": "watershed"
+      },
+      {
+        "id": 12,
+        "type": "WBC",
+        "confidence": 0.85,
+        "bbox": [
+          0,
+          194,
+          77,
+          307
+        ],
+        "center": [
+          32,
+          254
+        ],
+        "area": 8701,
+        "detection_method": "watershed"
+      },
+      {
+        "id": 13,
+        "type": "WBC",
+        "confidence": 0.85,
+        "bbox": [
+          267,
+          227,
+          456,
+          345
+        ],
+        "center": [
+          359,
+          288
+        ],
+        "area": 22302,
+        "detection_method": "watershed"
+      },
+      {
+        "id": 14,
+        "type": "WBC",
+        "confidence": 0.7,
+        "bbox": [
+          0,
+          307,
+          94,
+          374
+        ],
+        "center": [
+          43,
+          340
+        ],
+        "area": 6298,
+        "detection_method": "watershed"
+      },
+      {
+        "id": 15,
+        "type": "WBC",
+        "confidence": 0.85,
+        "bbox": [
+          510,
+          316,
+          600,
+          412
+        ],
+        "center": [
+          556,
+          364
+        ],
+        "area": 8640,
+        "detection_method": "watershed"
+      },
+      {
+        "id": 16,
+        "type": "WBC",
+        "confidence": 0.7,
+        "bbox": [
+          0,
+          374,
+          97,
+          450
+        ],
+        "center": [
+          46,
+          412
+        ],
+        "area": 7372,
+        "detection_method": "watershed"
+      },
+      {
+        "id": 17,
+        "type": "WBC",
+        "confidence": 0.85,
+        "bbox": [
+          97,
+          348,
+          193,
+          450
+        ],
+        "center": [
+          141,
+          406
+        ],
+        "area": 9792,
+        "detection_method": "watershed"
+      },
+      {
+        "id": 18,
+        "type": "WBC",
+        "confidence": 0.85,
+        "bbox": [
+          156,
+          284,
+          347,
+          450
+        ],
+        "center": [
+          251,
+          378
+        ],
+        "area": 31706,
+        "detection_method": "watershed"
+      },
+      {
+        "id": 19,
+        "type": "WBC",
+        "confidence": 0.85,
+        "bbox": [
+          347,
+          319,
+          511,
+          450
+        ],
+        "center": [
+          429,
+          390
+        ],
+        "area": 21484,
+        "detection_method": "watershed"
+      },
+      {
+        "id": 20,
+        "type": "WBC",
+        "confidence": 0.7,
+        "bbox": [
+          506,
+          412,
+          600,
+          450
+        ],
+        "center": [
+          554,
+          431
+        ],
+        "area": 3572,
+        "detection_method": "watershed"
+      }
+    ]
+  },
+  "method_used": "Rule-based"
+}
