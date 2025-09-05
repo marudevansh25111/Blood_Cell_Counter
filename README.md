@@ -75,6 +75,8 @@ blood_cell_counter/
 ├── requirements.txt              # Python dependencies
 ├── README.md                     # This file
 └── LICENSE                       # License information
+
+** may be modified later
 ```
 
 ## 🔧 Usage
@@ -103,7 +105,6 @@ This project is released under the MIT License. See LICENSE file for details.
 ## 👨‍💻 Author
 
 **Devansh Maru**
-- Email: your.email@example.com
 - GitHub: @marudevansh25111
 
 ## 📚 References
