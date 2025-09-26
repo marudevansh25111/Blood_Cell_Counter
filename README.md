@@ -1,4 +1,4 @@
-<img width="1512" height="947" alt="Screenshot 2025-09-27 at 12 44 59 AM" src="https://github.com/user-attachments/assets/5889769e-4e1c-4178-9aa0-306ef5a929fc" /># 🔬 Automated Blood Cell Counter
+# 🔬 Automated Blood Cell Counter
 
 An advanced computer vision system for automated detection, counting, and classification of blood cells in microscopic images. Built with Python, OpenCV, and machine learning techniques, optimized for Mac M3 Pro.
 
