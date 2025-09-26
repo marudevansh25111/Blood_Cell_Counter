@@ -18,17 +18,6 @@ This system automates the traditionally manual process of blood cell counting, p
 <img width="990" height="556" alt="Screenshot 2025-09-27 at 1 01 06 AM" src="https://github.com/user-attachments/assets/fe296412-34c9-4849-85e1-778520db0650" />
 
 
-
-
-### Key Features
-
-✅ **95%+ Accuracy** in cell counting compared to manual methods  
-✅ **2-5 Second Processing** time per image  
-✅ **Multi-Algorithm Detection** for robust cell identification  
-✅ **Real-time Web Interface** with interactive visualizations  
-✅ **Batch Processing** capabilities for laboratory workflows  
-✅ **Comprehensive Testing** suite with synthetic data generation  
-
 ## 🚀 Quick Start
 
 ### Prerequisites
