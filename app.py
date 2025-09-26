@@ -36,7 +36,7 @@ st.set_page_config(
     page_title="Blood Cell Counter",
     page_icon="🔬",
     layout="wide",
-    initial_sidebar_state="expanded"
+    initial_sidebar_state="collapsed"  # This hides the sidebar
 )
 
 def main():
@@ -46,6 +46,10 @@ def main():
     st.title("🔬 Automated Blood Cell Counter")
     st.markdown("""
     **Professional blood cell analysis using computer vision**
+                
+                
+    **Disclaimer**
+    -**This Project is made for acadamic Purpose not for medical use.**
     
     Upload a microscopic blood smear image to automatically detect, count, and classify:
     - **Red Blood Cells (RBCs)** - Oxygen-carrying cells
@@ -54,7 +58,7 @@ def main():
     """)
     
     # Sidebar for settings and information
-    setup_sidebar()
+    # setup_sidebar()
     
     # Main application interface
     if 'processing_complete' not in st.session_state:
@@ -120,29 +124,29 @@ def setup_sidebar():
         st.metric("Accuracy", "95%+", help="Expected detection accuracy")
     
     # Performance information
-    st.sidebar.subheader("⚡ Performance")
-    st.sidebar.info("""
-    **Processing Time:** 2-5 seconds per image
+    # st.sidebar.subheader("⚡ Performance")
+    # st.sidebar.info("""
+    # **Processing Time:** 2-5 seconds per image
     
-    **Supported Image Sizes:** Up to 2000x2000 pixels
+    # **Supported Image Sizes:** Up to 2000x2000 pixels
     
-    **Optimized for:** Mac M3 Pro architecture
-    """)
+    # **Optimized for:** Mac M3 Pro architecture
+    # """)
     
     # Help section
-    with st.sidebar.expander("❓ Help & Tips"):
-        st.markdown("""
-        **Best Results:**
-        - Use high-quality microscopic images
-        - Ensure good contrast and lighting  
-        - Avoid images with too much overlap
-        - Standard blood smear staining works best
+    # with st.sidebar.expander("❓ Help & Tips"):
+    #     st.markdown("""
+    #     **Best Results:**
+    #     - Use high-quality microscopic images
+    #     - Ensure good contrast and lighting  
+    #     - Avoid images with too much overlap
+    #     - Standard blood smear staining works best
         
-        **Troubleshooting:**
-        - If no cells detected, try different image
-        - Low confidence may indicate poor image quality
-        - Processing errors usually indicate file issues
-        """)
+    #     **Troubleshooting:**
+    #     - If no cells detected, try different image
+    #     - Low confidence may indicate poor image quality
+    #     - Processing errors usually indicate file issues
+    #     """)
 
 def display_upload_section(uploaded_file):
     """Display the uploaded image and processing interface."""
