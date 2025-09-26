@@ -21,10 +21,16 @@ import time
 import io
 
 # Add src directory to Python path
-sys.path.append(os.path.join(os.path.dirname(__file__), 'src'))
+# sys.path.append(os.path.join(os.path.dirname(__file__), 'src'))
+
+# Add multiple possible paths
+current_dir = os.path.dirname(os.path.abspath(__file__))
+src_dir = os.path.join(current_dir, 'src')
+sys.path.insert(0, current_dir)
+sys.path.insert(0, src_dir)
 
 try:
-    from blood_counter import BloodCellCounter
+    from src.blood_counter import BloodCellCounter
     import matplotlib.pyplot as plt
 except ImportError as e:
     st.error(f"Import error: {e}")
