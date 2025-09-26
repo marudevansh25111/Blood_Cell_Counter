@@ -2,6 +2,16 @@
 
 An advanced computer vision system for automated detection, counting, and classification of blood cells in microscopic images. Built with Python, OpenCV, and machine learning techniques, optimized for Mac M3 Pro.
 
+##User Interface
+<img width="990" height="556" alt="Screenshot 2025-09-27 at 12 44 59 AM" src="https://github.com/user-attachments/assets/eb073890-a79b-46ff-a7bc-433f135abaee" />
+<img width="990" height="556" alt="Screenshot 2025-09-27 at 1 00 41 AM" src="https://github.com/user-attachments/assets/b2a5a5fe-0370-4c82-8fdc-7e787c55aa51" />
+<img width="990" height="556" alt="Screenshot 2025-09-27 at 1 00 53 AM" src="https://github.com/user-attachments/assets/f19f3a51-3e79-4fde-9031-3d954a74d1b4" />
+<img width="990" height="556" alt="Screenshot 2025-09-27 at 1 01 06 AM" src="https://github.com/user-attachments/assets/92b53841-7641-4ff2-ad32-ea7883f75223" />
+
+
+
+
+
 ## 📋 Project Overview
 
 This system automates the traditionally manual process of blood cell counting, providing:
@@ -11,14 +21,6 @@ This system automates the traditionally manual process of blood cell counting, p
 - **Batch Processing**: Handle multiple images efficiently
 - **Comprehensive Reporting**: Detailed analysis with downloadable results
 
-### Key Features
-
-✅ **95%+ Accuracy** in cell counting compared to manual methods  
-✅ **2-5 Second Processing** time per image  
-✅ **Multi-Algorithm Detection** for robust cell identification  
-✅ **Real-time Web Interface** with interactive visualizations  
-✅ **Batch Processing** capabilities for laboratory workflows  
-✅ **Comprehensive Testing** suite with synthetic data generation  
 
 ## 🚀 Quick Start
 
