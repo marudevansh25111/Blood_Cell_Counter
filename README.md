@@ -105,7 +105,6 @@ This project is released under the MIT License. See LICENSE file for details.
 ## 👨‍💻 Author
 
 **Devansh Maru**
-- Email: your.email@example.com
 - GitHub: @marudevansh25111
 
 ## 📚 References
